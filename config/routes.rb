@@ -16,7 +16,7 @@ Rails.application.routes.draw do
 
   root 'contents#home'
 
-
+  get 'contents/create'
 
   # Example resource route with options:
   #   resources :products do
